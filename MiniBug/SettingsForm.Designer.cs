@@ -58,41 +58,42 @@
             // 
             // btOk
             // 
-            this.btOk.Location = new System.Drawing.Point(308, 365);
+            this.btOk.Location = new System.Drawing.Point(280, 365);
             this.btOk.Name = "btOk";
-            this.btOk.Size = new System.Drawing.Size(75, 23);
+            this.btOk.Size = new System.Drawing.Size(88, 23);
             this.btOk.TabIndex = 8;
-            this.btOk.Text = "OK";
+            this.btOk.Text = "OK 确定";
             this.btOk.UseVisualStyleBackColor = true;
             this.btOk.Click += new System.EventHandler(this.btOk_Click);
             // 
             // btCancel
             // 
-            this.btCancel.Location = new System.Drawing.Point(389, 364);
+            this.btCancel.Location = new System.Drawing.Point(376, 364);
             this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(75, 24);
+            this.btCancel.Size = new System.Drawing.Size(88, 24);
             this.btCancel.TabIndex = 9;
-            this.btCancel.Text = "Cancel";
+            this.btCancel.Text = "Cancel 取消";
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
             // lblGridlineColor
             // 
             this.lblGridlineColor.AutoSize = true;
-            this.lblGridlineColor.Location = new System.Drawing.Point(42, 58);
+            this.lblGridlineColor.Location = new System.Drawing.Point(42, 53);
             this.lblGridlineColor.Name = "lblGridlineColor";
-            this.lblGridlineColor.Size = new System.Drawing.Size(82, 13);
+            this.lblGridlineColor.Size = new System.Drawing.Size(85, 26);
             this.lblGridlineColor.TabIndex = 1;
-            this.lblGridlineColor.Text = "&Gridline Color:";
+            this.lblGridlineColor.Text = "&Gridline Color:\r\n网格线颜色：";
+            this.lblGridlineColor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // chkShowGridlines
             // 
             this.chkShowGridlines.AutoSize = true;
             this.chkShowGridlines.Location = new System.Drawing.Point(23, 30);
             this.chkShowGridlines.Name = "chkShowGridlines";
-            this.chkShowGridlines.Size = new System.Drawing.Size(104, 17);
+            this.chkShowGridlines.Size = new System.Drawing.Size(175, 17);
             this.chkShowGridlines.TabIndex = 0;
-            this.chkShowGridlines.Text = "S&how Gridlines";
+            this.chkShowGridlines.Text = "S&how Gridlines  显示网格线";
             this.chkShowGridlines.UseVisualStyleBackColor = true;
             this.chkShowGridlines.CheckedChanged += new System.EventHandler(this.chkShowGridlines_CheckedChanged);
             // 
@@ -101,9 +102,9 @@
             this.chkAlternateRowColors.AutoSize = true;
             this.chkAlternateRowColors.Location = new System.Drawing.Point(23, 64);
             this.chkAlternateRowColors.Name = "chkAlternateRowColors";
-            this.chkAlternateRowColors.Size = new System.Drawing.Size(146, 17);
+            this.chkAlternateRowColors.Size = new System.Drawing.Size(214, 17);
             this.chkAlternateRowColors.TabIndex = 2;
-            this.chkAlternateRowColors.Text = "&Alternating Row Colors";
+            this.chkAlternateRowColors.Text = "&Alternating Row Colors 交替行颜色";
             this.chkAlternateRowColors.UseVisualStyleBackColor = true;
             this.chkAlternateRowColors.CheckedChanged += new System.EventHandler(this.chkAlternateRowColors_CheckedChanged);
             // 
@@ -111,7 +112,7 @@
             // 
             this.GridlineColor.BackColor = System.Drawing.Color.White;
             this.GridlineColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.GridlineColor.Location = new System.Drawing.Point(130, 53);
+            this.GridlineColor.Location = new System.Drawing.Point(134, 57);
             this.GridlineColor.Name = "GridlineColor";
             this.GridlineColor.Size = new System.Drawing.Size(35, 22);
             this.GridlineColor.TabIndex = 2;
@@ -120,11 +121,12 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 21);
+            this.label3.Location = new System.Drawing.Point(18, 16);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 13);
+            this.label3.Size = new System.Drawing.Size(34, 26);
             this.label3.TabIndex = 0;
-            this.label3.Text = "&Font:";
+            this.label3.Text = "&Font:\r\n字体";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cboFont
             // 
@@ -137,11 +139,12 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(380, 21);
+            this.label4.Location = new System.Drawing.Point(377, 16);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 13);
+            this.label4.Size = new System.Drawing.Size(33, 26);
             this.label4.TabIndex = 2;
-            this.label4.Text = "&Size:";
+            this.label4.Text = "&Size:\r\n字号";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtFontSize
             // 
@@ -156,15 +159,16 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(20, 28);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(104, 13);
+            this.label5.Size = new System.Drawing.Size(103, 26);
             this.label5.TabIndex = 0;
-            this.label5.Text = "&Background Color:";
+            this.label5.Text = "&Background Color:\r\n背景色：";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SelectionBackgroundColor
             // 
             this.SelectionBackgroundColor.BackColor = System.Drawing.Color.White;
             this.SelectionBackgroundColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SelectionBackgroundColor.Location = new System.Drawing.Point(134, 23);
+            this.SelectionBackgroundColor.Location = new System.Drawing.Point(134, 32);
             this.SelectionBackgroundColor.Name = "SelectionBackgroundColor";
             this.SelectionBackgroundColor.Size = new System.Drawing.Size(35, 22);
             this.SelectionBackgroundColor.TabIndex = 1;
@@ -175,9 +179,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(196, 28);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 13);
+            this.label7.Size = new System.Drawing.Size(72, 26);
             this.label7.TabIndex = 2;
-            this.label7.Text = "&Text Color:";
+            this.label7.Text = "&Text Color:\r\n文本颜色：";
             // 
             // groupBox1
             // 
@@ -190,13 +194,13 @@
             this.groupBox1.Size = new System.Drawing.Size(443, 66);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Selection";
+            this.groupBox1.Text = "Selection 选择";
             // 
             // SelectionTextColor
             // 
             this.SelectionTextColor.BackColor = System.Drawing.Color.White;
             this.SelectionTextColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SelectionTextColor.Location = new System.Drawing.Point(263, 23);
+            this.SelectionTextColor.Location = new System.Drawing.Point(274, 32);
             this.SelectionTextColor.Name = "SelectionTextColor";
             this.SelectionTextColor.Size = new System.Drawing.Size(35, 22);
             this.SelectionTextColor.TabIndex = 3;
@@ -214,13 +218,13 @@
             this.groupBox2.Size = new System.Drawing.Size(443, 128);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Row Colors";
+            this.groupBox2.Text = "Row Colors 行颜色";
             // 
             // AlternateRowColor
             // 
             this.AlternateRowColor.BackColor = System.Drawing.Color.White;
             this.AlternateRowColor.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.AlternateRowColor.Location = new System.Drawing.Point(162, 90);
+            this.AlternateRowColor.Location = new System.Drawing.Point(163, 99);
             this.AlternateRowColor.Name = "AlternateRowColor";
             this.AlternateRowColor.Size = new System.Drawing.Size(35, 22);
             this.AlternateRowColor.TabIndex = 4;
@@ -231,9 +235,10 @@
             this.lblAlternateRowColor.AutoSize = true;
             this.lblAlternateRowColor.Location = new System.Drawing.Point(42, 95);
             this.lblAlternateRowColor.Name = "lblAlternateRowColor";
-            this.lblAlternateRowColor.Size = new System.Drawing.Size(114, 13);
+            this.lblAlternateRowColor.Size = new System.Drawing.Size(114, 26);
             this.lblAlternateRowColor.TabIndex = 3;
-            this.lblAlternateRowColor.Text = "A&lternate Row Color:";
+            this.lblAlternateRowColor.Text = "A&lternate Row Color:\r\n交替行颜色";
+            this.lblAlternateRowColor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RowColor
             // 
@@ -248,11 +253,12 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(20, 33);
+            this.label9.Location = new System.Drawing.Point(22, 24);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 13);
+            this.label9.Size = new System.Drawing.Size(64, 26);
             this.label9.TabIndex = 0;
-            this.label9.Text = "&Row Color:";
+            this.label9.Text = "&Row Color:\r\n行颜色";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // groupBox3
             // 
@@ -264,15 +270,15 @@
             this.groupBox3.Size = new System.Drawing.Size(443, 90);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Gridlines";
+            this.groupBox3.Text = "Gridlines 网格线";
             // 
             // btLoadDefaults
             // 
             this.btLoadDefaults.Location = new System.Drawing.Point(21, 365);
             this.btLoadDefaults.Name = "btLoadDefaults";
-            this.btLoadDefaults.Size = new System.Drawing.Size(96, 23);
+            this.btLoadDefaults.Size = new System.Drawing.Size(156, 23);
             this.btLoadDefaults.TabIndex = 7;
-            this.btLoadDefaults.Text = "&Load defaults";
+            this.btLoadDefaults.Text = "&Load defaults 加载默认值";
             this.btLoadDefaults.UseVisualStyleBackColor = true;
             this.btLoadDefaults.Click += new System.EventHandler(this.btLoadDefaults_Click);
             // 

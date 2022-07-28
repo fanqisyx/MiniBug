@@ -191,7 +191,7 @@ namespace MiniBug
         private void btLoadDefaults_Click(object sender, EventArgs e)
         {
             // Ask for confirmation before proceeding
-            if (MessageBox.Show("Are you sure you want to load the default settings?\nYour settings definitions will be discarded.", "Load Default Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Are you sure you want to load the default settings?\nYour settings definitions will be discarded.\n\n您确定要加载默认设置吗？\n您的设置定义将被丢弃。", "Load Default Settings", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 ApplicationSettings.SetDefaultValues();
 
