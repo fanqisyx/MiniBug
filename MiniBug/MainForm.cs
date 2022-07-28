@@ -1020,23 +1020,23 @@ namespace MiniBug
 
                     switch (Program.SoftwareProject.Issues[key].Priority)
                     {
-                        case IssuePriority.Low:
+                        case IssuePriority.低Low:
                             s = "Low priority";
                             break;
 
-                        case IssuePriority.Normal:
+                        case IssuePriority.中Normal:
                             s = "Normal priority";
                             break;
 
-                        case IssuePriority.High:
+                        case IssuePriority.高High:
                             s = "High priority";
                             break;
 
-                        case IssuePriority.Urgent:
+                        case IssuePriority.急迫Urgent:
                             s = "Urgent priority";
                             break;
 
-                        case IssuePriority.Immediate:
+                        case IssuePriority.最紧急Immediate:
                             s = "Immediate priority";
                             break;
                     }
@@ -1089,13 +1089,13 @@ namespace MiniBug
         {
             switch (priority)
             {
-                case IssuePriority.High:
+                case IssuePriority.高High:
                     return MiniBug.Properties.Resources.Priority_High;
 
-                case IssuePriority.Urgent:
+                case IssuePriority.急迫Urgent:
                     return MiniBug.Properties.Resources.Priority_Urgent;
 
-                case IssuePriority.Immediate:
+                case IssuePriority.最紧急Immediate:
                     return MiniBug.Properties.Resources.Priority_Immediate;
 
                 default:

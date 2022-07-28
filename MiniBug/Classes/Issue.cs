@@ -27,7 +27,7 @@ namespace MiniBug
     /// <summary>
     /// Priority of an issue.
     /// </summary>
-    public enum IssuePriority { None = 0, Low, Normal, High, Urgent, Immediate };
+    public enum IssuePriority { None = 0, 低Low, 中Normal, 高High, 急迫Urgent, 最紧急Immediate };
 
     /// <summary>
     /// Fields used on the user interface (in a DataGridView and on a form) to represent an issue.
