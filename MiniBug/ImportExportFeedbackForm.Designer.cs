@@ -46,7 +46,7 @@
             this.lblFormTitle.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.lblFormTitle.Size = new System.Drawing.Size(609, 63);
             this.lblFormTitle.TabIndex = 2;
-            this.lblFormTitle.Text = "Export Project to CSV";
+            this.lblFormTitle.Text = "Export Project to CSV\r\n导出为CSV";
             this.lblFormTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btClose
@@ -55,7 +55,7 @@
             this.btClose.Name = "btClose";
             this.btClose.Size = new System.Drawing.Size(75, 23);
             this.btClose.TabIndex = 3;
-            this.btClose.Text = "Close";
+            this.btClose.Text = "Close 关闭";
             this.btClose.UseVisualStyleBackColor = true;
             this.btClose.Click += new System.EventHandler(this.btClose_Click);
             // 
@@ -73,18 +73,18 @@
             this.lblDescription.AutoSize = true;
             this.lblDescription.Location = new System.Drawing.Point(35, 87);
             this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(66, 13);
+            this.lblDescription.Size = new System.Drawing.Size(95, 13);
             this.lblDescription.TabIndex = 14;
-            this.lblDescription.Text = "Description";
+            this.lblDescription.Text = "Description 描述";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 118);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 13);
+            this.label1.Size = new System.Drawing.Size(100, 13);
             this.label1.TabIndex = 15;
-            this.label1.Text = "&Details:";
+            this.label1.Text = "&Details 详细内容:";
             // 
             // FlowLayoutPanel1
             // 

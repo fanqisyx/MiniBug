@@ -36,6 +36,7 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.GridTasks = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GridIssues)).BeginInit();
@@ -45,21 +46,21 @@
             // 
             // btOK
             // 
-            this.btOK.Location = new System.Drawing.Point(592, 286);
+            this.btOK.Location = new System.Drawing.Point(552, 286);
             this.btOK.Name = "btOK";
-            this.btOK.Size = new System.Drawing.Size(75, 23);
+            this.btOK.Size = new System.Drawing.Size(87, 23);
             this.btOK.TabIndex = 2;
-            this.btOK.Text = "OK";
+            this.btOK.Text = "OK 确定";
             this.btOK.UseVisualStyleBackColor = true;
             this.btOK.Click += new System.EventHandler(this.btOK_Click);
             // 
             // btCancel
             // 
-            this.btCancel.Location = new System.Drawing.Point(673, 286);
+            this.btCancel.Location = new System.Drawing.Point(661, 286);
             this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(75, 23);
+            this.btCancel.Size = new System.Drawing.Size(87, 23);
             this.btCancel.TabIndex = 3;
-            this.btCancel.Text = "Cancel";
+            this.btCancel.Text = "Cancel 取消";
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
@@ -81,7 +82,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(728, 210);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Issues";
+            this.tabPage1.Text = "Issues 问题";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // GridIssues
@@ -103,7 +104,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(728, 210);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Tasks";
+            this.tabPage2.Text = "Tasks 任务";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // GridTasks
@@ -120,18 +121,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 17);
+            this.label1.Location = new System.Drawing.Point(16, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(510, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Select which columns to show and which columns to use for sorting in the Issues a" +
     "nd Tasks grids:";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(16, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(332, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "在问题和任务网格中选择要显示的列以及用于排序的列：";
+            // 
             // ConfigureViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(760, 321);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TabControl);
             this.Controls.Add(this.btCancel);
@@ -165,5 +177,6 @@
         private System.Windows.Forms.DataGridView GridIssues;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView GridTasks;
+        private System.Windows.Forms.Label label2;
     }
 }
