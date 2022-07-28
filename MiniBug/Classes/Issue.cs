@@ -18,7 +18,7 @@ namespace MiniBug
         None = 0,
         未确认,
         已确认,
-        [DescriptionAttribute("In progress")]
+        [DescriptionAttribute("进行中")]
         进行中,
         已解决,
         已关闭

@@ -16,17 +16,30 @@ namespace MiniBug
     public enum TaskStatus
     {
         None = 0,
-        [DescriptionAttribute("Not started")]
+        [DescriptionAttribute("未开始")]
         NotStarted,
-        [DescriptionAttribute("In progress")]
+        [DescriptionAttribute("进行中")]
         InProgress,
+        [DescriptionAttribute("已完成")]
         Finished
     };
 
     /// <summary>
     /// Priority of a task.
     /// </summary>
-    public enum TaskPriority { None = 0, Low, Normal, High, Urgent, Immediate };
+    public enum TaskPriority 
+    { 
+        None = 0,
+        [DescriptionAttribute("低")]
+        Low,
+        [DescriptionAttribute("中")]
+        Normal,
+        [DescriptionAttribute("高")]
+        High,
+        [DescriptionAttribute("急迫")]
+        Urgent,
+        [DescriptionAttribute("最紧急")]
+        Immediate };
 
     /// <summary>
     /// Fields used on the user interface (in a DataGridView and on a form) to represent a task.

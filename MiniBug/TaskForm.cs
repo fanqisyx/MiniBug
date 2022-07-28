@@ -66,7 +66,7 @@ namespace MiniBug
             {
                 if (p != TaskPriority.None)
                 {
-                    PriorityList.Add(new ComboBoxItem(Convert.ToInt32(p), p.ToString()));
+                    PriorityList.Add(new ComboBoxItem(Convert.ToInt32(p), p.ToDescription()));
                 }
             }
         }

@@ -69,12 +69,14 @@ namespace MiniBug
             if (HasIssues && HasTasks)
             {
                 lblInfo.Text = "This project will be exported to two CSV files: a file containing the issues and a file containing the tasks.";
+                label1.Text = "该项目将导出到两个文件：一个包含问题，另一个包含任务。";
                 txtIssuesFilename.Text = IssuesFilename;
                 txtTasksFilename.Text = TasksFilename;
             }
             else if (HasIssues && !HasTasks)
             {
                 lblInfo.Text = "This project will be exported to a .CSV file containing the issues.";
+                label1.Text = "该项目将导出到一个包含问题的文件。";
 
                 // Hide controls
                 lblTasks.Visible = false;
@@ -91,6 +93,7 @@ namespace MiniBug
             else if (!HasIssues && HasTasks)
             {
                 lblInfo.Text = "This project will be exported to a .CSV file containing the tasks.";
+                label1.Text = "该项目将导出到一个包含任务的文件。";
 
                 // Hide controls
                 lblIssues.Visible = false;
