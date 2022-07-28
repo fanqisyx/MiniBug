@@ -156,7 +156,7 @@
             // 
             // txtVersion
             // 
-            this.txtVersion.Location = new System.Drawing.Point(74, 110);
+            this.txtVersion.Location = new System.Drawing.Point(74, 112);
             this.txtVersion.Name = "txtVersion";
             this.txtVersion.Size = new System.Drawing.Size(233, 22);
             this.txtVersion.TabIndex = 13;
@@ -164,7 +164,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(334, 114);
+            this.label8.Location = new System.Drawing.Point(334, 111);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(83, 26);
             this.label8.TabIndex = 14;
@@ -173,7 +173,7 @@
             // 
             // txtTargetVersion
             // 
-            this.txtTargetVersion.Location = new System.Drawing.Point(424, 110);
+            this.txtTargetVersion.Location = new System.Drawing.Point(424, 115);
             this.txtTargetVersion.Name = "txtTargetVersion";
             this.txtTargetVersion.Size = new System.Drawing.Size(233, 22);
             this.txtTargetVersion.TabIndex = 15;
@@ -192,6 +192,7 @@
             this.txtDescription.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtDescription.Font = new System.Drawing.Font("华文仿宋", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescription.Location = new System.Drawing.Point(12, 164);
             this.txtDescription.Multiline = true;
             this.txtDescription.Name = "txtDescription";

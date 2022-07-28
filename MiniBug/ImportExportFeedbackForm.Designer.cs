@@ -46,7 +46,7 @@
             this.lblFormTitle.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.lblFormTitle.Size = new System.Drawing.Size(609, 63);
             this.lblFormTitle.TabIndex = 2;
-            this.lblFormTitle.Text = "Export Project to CSV\r\n导出为CSV";
+            this.lblFormTitle.Text = "Export Project to CSV  导出为CSV\r\n";
             this.lblFormTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btClose

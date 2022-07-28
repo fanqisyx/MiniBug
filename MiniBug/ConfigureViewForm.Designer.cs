@@ -46,7 +46,7 @@
             // 
             // btOK
             // 
-            this.btOK.Location = new System.Drawing.Point(552, 286);
+            this.btOK.Location = new System.Drawing.Point(582, 323);
             this.btOK.Name = "btOK";
             this.btOK.Size = new System.Drawing.Size(87, 23);
             this.btOK.TabIndex = 2;
@@ -56,7 +56,7 @@
             // 
             // btCancel
             // 
-            this.btCancel.Location = new System.Drawing.Point(661, 286);
+            this.btCancel.Location = new System.Drawing.Point(675, 323);
             this.btCancel.Name = "btCancel";
             this.btCancel.Size = new System.Drawing.Size(87, 23);
             this.btCancel.TabIndex = 3;
@@ -68,10 +68,10 @@
             // 
             this.TabControl.Controls.Add(this.tabPage1);
             this.TabControl.Controls.Add(this.tabPage2);
-            this.TabControl.Location = new System.Drawing.Point(12, 44);
+            this.TabControl.Location = new System.Drawing.Point(12, 57);
             this.TabControl.Name = "TabControl";
             this.TabControl.SelectedIndex = 0;
-            this.TabControl.Size = new System.Drawing.Size(736, 236);
+            this.TabControl.Size = new System.Drawing.Size(750, 247);
             this.TabControl.TabIndex = 1;
             // 
             // tabPage1
@@ -80,7 +80,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(728, 210);
+            this.tabPage1.Size = new System.Drawing.Size(742, 221);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Issues 问题";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -91,7 +91,7 @@
             this.GridIssues.Dock = System.Windows.Forms.DockStyle.Fill;
             this.GridIssues.Location = new System.Drawing.Point(3, 3);
             this.GridIssues.Name = "GridIssues";
-            this.GridIssues.Size = new System.Drawing.Size(722, 204);
+            this.GridIssues.Size = new System.Drawing.Size(736, 215);
             this.GridIssues.TabIndex = 0;
             this.GridIssues.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridIssues_CellContentClick);
             this.GridIssues.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.GridIssues_CellPainting);
@@ -142,7 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(760, 321);
+            this.ClientSize = new System.Drawing.Size(774, 358);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TabControl);

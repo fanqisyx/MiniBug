@@ -43,6 +43,7 @@
             this.lblCsvTasks = new System.Windows.Forms.Label();
             this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,7 +56,7 @@
             this.lblFormTitle.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.lblFormTitle.Size = new System.Drawing.Size(609, 63);
             this.lblFormTitle.TabIndex = 0;
-            this.lblFormTitle.Text = "Export Project to CSV";
+            this.lblFormTitle.Text = "Export Project to CSV 将项目以CSV文件的形式导出";
             this.lblFormTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btExport
@@ -82,9 +83,9 @@
             // 
             this.lblInfo.AutoSize = true;
             this.lblInfo.BackColor = System.Drawing.Color.Transparent;
-            this.lblInfo.Location = new System.Drawing.Point(35, 87);
+            this.lblInfo.Location = new System.Drawing.Point(35, 71);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(478, 13);
+            this.lblInfo.Size = new System.Drawing.Size(479, 13);
             this.lblInfo.TabIndex = 1;
             this.lblInfo.Text = "This project will be exported to two files: one containing the issues and the oth" +
     "er the tasks.";
@@ -93,7 +94,7 @@
             // 
             this.lblIssues.AutoSize = true;
             this.lblIssues.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIssues.Location = new System.Drawing.Point(14, 125);
+            this.lblIssues.Location = new System.Drawing.Point(14, 127);
             this.lblIssues.Name = "lblIssues";
             this.lblIssues.Size = new System.Drawing.Size(94, 13);
             this.lblIssues.TabIndex = 2;
@@ -103,7 +104,7 @@
             // 
             this.lblTasks.AutoSize = true;
             this.lblTasks.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTasks.Location = new System.Drawing.Point(14, 153);
+            this.lblTasks.Location = new System.Drawing.Point(14, 157);
             this.lblTasks.Name = "lblTasks";
             this.lblTasks.Size = new System.Drawing.Size(90, 13);
             this.lblTasks.TabIndex = 5;
@@ -111,7 +112,7 @@
             // 
             // txtIssuesFilename
             // 
-            this.txtIssuesFilename.Location = new System.Drawing.Point(114, 120);
+            this.txtIssuesFilename.Location = new System.Drawing.Point(114, 122);
             this.txtIssuesFilename.Name = "txtIssuesFilename";
             this.txtIssuesFilename.Size = new System.Drawing.Size(270, 22);
             this.txtIssuesFilename.TabIndex = 3;
@@ -119,7 +120,7 @@
             // 
             // txtTasksFilename
             // 
-            this.txtTasksFilename.Location = new System.Drawing.Point(114, 148);
+            this.txtTasksFilename.Location = new System.Drawing.Point(114, 152);
             this.txtTasksFilename.Name = "txtTasksFilename";
             this.txtTasksFilename.Size = new System.Drawing.Size(270, 22);
             this.txtTasksFilename.TabIndex = 6;
@@ -128,7 +129,7 @@
             // lblLocation
             // 
             this.lblLocation.AutoSize = true;
-            this.lblLocation.Location = new System.Drawing.Point(14, 181);
+            this.lblLocation.Location = new System.Drawing.Point(14, 190);
             this.lblLocation.Name = "lblLocation";
             this.lblLocation.Size = new System.Drawing.Size(54, 13);
             this.lblLocation.TabIndex = 8;
@@ -136,7 +137,7 @@
             // 
             // txtLocation
             // 
-            this.txtLocation.Location = new System.Drawing.Point(114, 176);
+            this.txtLocation.Location = new System.Drawing.Point(114, 185);
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.ReadOnly = true;
             this.txtLocation.Size = new System.Drawing.Size(403, 22);
@@ -144,7 +145,7 @@
             // 
             // btBrowse
             // 
-            this.btBrowse.Location = new System.Drawing.Point(523, 176);
+            this.btBrowse.Location = new System.Drawing.Point(523, 185);
             this.btBrowse.Name = "btBrowse";
             this.btBrowse.Size = new System.Drawing.Size(75, 23);
             this.btBrowse.TabIndex = 10;
@@ -155,7 +156,7 @@
             // lblCsvIssues
             // 
             this.lblCsvIssues.AutoSize = true;
-            this.lblCsvIssues.Location = new System.Drawing.Point(390, 125);
+            this.lblCsvIssues.Location = new System.Drawing.Point(390, 127);
             this.lblCsvIssues.Name = "lblCsvIssues";
             this.lblCsvIssues.Size = new System.Drawing.Size(25, 13);
             this.lblCsvIssues.TabIndex = 4;
@@ -164,7 +165,7 @@
             // lblCsvTasks
             // 
             this.lblCsvTasks.AutoSize = true;
-            this.lblCsvTasks.Location = new System.Drawing.Point(390, 153);
+            this.lblCsvTasks.Location = new System.Drawing.Point(390, 157);
             this.lblCsvTasks.Name = "lblCsvTasks";
             this.lblCsvTasks.Size = new System.Drawing.Size(25, 13);
             this.lblCsvTasks.TabIndex = 7;
@@ -180,11 +181,23 @@
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(35, 95);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(331, 14);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "该项目将导出到两个文件：一个包含问题，另一个包含任务。";
+            // 
             // ExportForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 267);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblCsvTasks);
             this.Controls.Add(this.lblCsvIssues);
@@ -232,5 +245,6 @@
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblCsvTasks;
+        private System.Windows.Forms.Label label1;
     }
 }

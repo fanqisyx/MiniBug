@@ -89,7 +89,7 @@
             this.GridIssues.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridIssues.Location = new System.Drawing.Point(6, 6);
             this.GridIssues.Name = "GridIssues";
-            this.GridIssues.Size = new System.Drawing.Size(776, 327);
+            this.GridIssues.Size = new System.Drawing.Size(778, 335);
             this.GridIssues.TabIndex = 0;
             this.GridIssues.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridIssues_CellDoubleClick);
             this.GridIssues.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.GridIssues_CellFormatting);
@@ -101,16 +101,14 @@
             // 
             // TabControl
             // 
-            this.TabControl.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.TabControl.Controls.Add(this.tabPage1);
             this.TabControl.Controls.Add(this.tabPage2);
-            this.TabControl.Location = new System.Drawing.Point(2, 76);
+            this.TabControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TabControl.Location = new System.Drawing.Point(0, 77);
             this.TabControl.Margin = new System.Windows.Forms.Padding(0);
             this.TabControl.Name = "TabControl";
             this.TabControl.SelectedIndex = 0;
-            this.TabControl.Size = new System.Drawing.Size(799, 365);
+            this.TabControl.Size = new System.Drawing.Size(801, 373);
             this.TabControl.TabIndex = 2;
             this.TabControl.SelectedIndexChanged += new System.EventHandler(this.TabControl_SelectedIndexChanged);
             // 
@@ -120,7 +118,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(791, 339);
+            this.tabPage1.Size = new System.Drawing.Size(793, 347);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Issues 问题";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -327,7 +325,7 @@
             // 
             this.newProjectToolStripMenuItem.Image = global::MiniBug.Properties.Resources.NewProject_32x32;
             this.newProjectToolStripMenuItem.Name = "newProjectToolStripMenuItem";
-            this.newProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newProjectToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.newProjectToolStripMenuItem.Text = "&新建项目...  ";
             this.newProjectToolStripMenuItem.Click += new System.EventHandler(this.newProjectToolStripMenuItem_Click);
             // 
@@ -335,34 +333,34 @@
             // 
             this.openProjectToolStripMenuItem.Image = global::MiniBug.Properties.Resources.OpenProject_32x32;
             this.openProjectToolStripMenuItem.Name = "openProjectToolStripMenuItem";
-            this.openProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openProjectToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.openProjectToolStripMenuItem.Text = "&打开项目...";
             this.openProjectToolStripMenuItem.Click += new System.EventHandler(this.openProjectToolStripMenuItem_Click);
             // 
             // editProjectToolStripMenuItem
             // 
             this.editProjectToolStripMenuItem.Name = "editProjectToolStripMenuItem";
-            this.editProjectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editProjectToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.editProjectToolStripMenuItem.Text = "&项目设置...";
             this.editProjectToolStripMenuItem.Click += new System.EventHandler(this.editProjectToolStripMenuItem_Click);
             // 
             // exportToolStripMenuItem
             // 
             this.exportToolStripMenuItem.Name = "exportToolStripMenuItem";
-            this.exportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exportToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.exportToolStripMenuItem.Text = "&导出...";
             this.exportToolStripMenuItem.Click += new System.EventHandler(this.exportToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(196, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(145, 6);
             // 
             // configureColumnsToolStripMenuItem
             // 
             this.configureColumnsToolStripMenuItem.Image = global::MiniBug.Properties.Resources.ConfigureView_32x32;
             this.configureColumnsToolStripMenuItem.Name = "configureColumnsToolStripMenuItem";
-            this.configureColumnsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.configureColumnsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.configureColumnsToolStripMenuItem.Text = "设置列";
             this.configureColumnsToolStripMenuItem.Click += new System.EventHandler(this.configureColumnsToolStripMenuItem_Click);
             // 
@@ -370,38 +368,38 @@
             // 
             this.settingsToolStripMenuItem.Image = global::MiniBug.Properties.Resources.Settings_32x32;
             this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.settingsToolStripMenuItem.Text = "&设置...";
             this.settingsToolStripMenuItem.Click += new System.EventHandler(this.settingsToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(196, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(145, 6);
             // 
             // recentProjectsToolStripMenuItem
             // 
             this.recentProjectsToolStripMenuItem.Name = "recentProjectsToolStripMenuItem";
-            this.recentProjectsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.recentProjectsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.recentProjectsToolStripMenuItem.Text = "&项目记录";
             // 
             // clearRecentProjectsListToolStripMenuItem
             // 
             this.clearRecentProjectsListToolStripMenuItem.Image = global::MiniBug.Properties.Resources.Delete_32x32;
             this.clearRecentProjectsListToolStripMenuItem.Name = "clearRecentProjectsListToolStripMenuItem";
-            this.clearRecentProjectsListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clearRecentProjectsListToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.clearRecentProjectsListToolStripMenuItem.Text = "&清除项目记录";
             this.clearRecentProjectsListToolStripMenuItem.Click += new System.EventHandler(this.clearRecentProjectsListToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(196, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(145, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.exitToolStripMenuItem.Text = "退出";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -420,7 +418,7 @@
             // 
             this.newIssueToolStripMenuItem.Image = global::MiniBug.Properties.Resources.NewBug_32x32;
             this.newIssueToolStripMenuItem.Name = "newIssueToolStripMenuItem";
-            this.newIssueToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newIssueToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.newIssueToolStripMenuItem.Text = "&新建问题...";
             this.newIssueToolStripMenuItem.Click += new System.EventHandler(this.newIssueToolStripMenuItem_Click);
             // 
@@ -428,7 +426,7 @@
             // 
             this.editIssueToolStripMenuItem.Image = global::MiniBug.Properties.Resources.EditBug_32x32;
             this.editIssueToolStripMenuItem.Name = "editIssueToolStripMenuItem";
-            this.editIssueToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editIssueToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.editIssueToolStripMenuItem.Text = "&编辑问题...";
             this.editIssueToolStripMenuItem.Click += new System.EventHandler(this.editIssueToolStripMenuItem_Click);
             // 
@@ -436,7 +434,7 @@
             // 
             this.deleteIssueToolStripMenuItem.Image = global::MiniBug.Properties.Resources.DeleteBug_32x32;
             this.deleteIssueToolStripMenuItem.Name = "deleteIssueToolStripMenuItem";
-            this.deleteIssueToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.deleteIssueToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.deleteIssueToolStripMenuItem.Text = "&删除问题";
             this.deleteIssueToolStripMenuItem.Click += new System.EventHandler(this.deleteIssueToolStripMenuItem_Click);
             // 
@@ -444,7 +442,7 @@
             // 
             this.cloneIssueToolStripMenuItem.Image = global::MiniBug.Properties.Resources.CloneBug_32x32;
             this.cloneIssueToolStripMenuItem.Name = "cloneIssueToolStripMenuItem";
-            this.cloneIssueToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cloneIssueToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.cloneIssueToolStripMenuItem.Text = "&复制问题";
             this.cloneIssueToolStripMenuItem.Click += new System.EventHandler(this.cloneIssueToolStripMenuItem_Click);
             // 
@@ -463,7 +461,7 @@
             // 
             this.newTaskToolStripMenuItem.Image = global::MiniBug.Properties.Resources.NewTask_32x32;
             this.newTaskToolStripMenuItem.Name = "newTaskToolStripMenuItem";
-            this.newTaskToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newTaskToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.newTaskToolStripMenuItem.Text = "&新建任务...";
             this.newTaskToolStripMenuItem.Click += new System.EventHandler(this.newTaskToolStripMenuItem_Click);
             // 
@@ -471,7 +469,7 @@
             // 
             this.editTaskToolStripMenuItem.Image = global::MiniBug.Properties.Resources.EditTask_32x32;
             this.editTaskToolStripMenuItem.Name = "editTaskToolStripMenuItem";
-            this.editTaskToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editTaskToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.editTaskToolStripMenuItem.Text = "&编辑任务...";
             this.editTaskToolStripMenuItem.Click += new System.EventHandler(this.editTaskToolStripMenuItem_Click);
             // 
@@ -479,7 +477,7 @@
             // 
             this.deleteTaskToolStripMenuItem.Image = global::MiniBug.Properties.Resources.DeleteTask_32x32;
             this.deleteTaskToolStripMenuItem.Name = "deleteTaskToolStripMenuItem";
-            this.deleteTaskToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.deleteTaskToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.deleteTaskToolStripMenuItem.Text = "&删除任务";
             this.deleteTaskToolStripMenuItem.Click += new System.EventHandler(this.deleteTaskToolStripMenuItem_Click);
             // 
@@ -487,7 +485,7 @@
             // 
             this.cloneTaskToolStripMenuItem.Image = global::MiniBug.Properties.Resources.CloneTask_32x32;
             this.cloneTaskToolStripMenuItem.Name = "cloneTaskToolStripMenuItem";
-            this.cloneTaskToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cloneTaskToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.cloneTaskToolStripMenuItem.Text = "&复制任务";
             this.cloneTaskToolStripMenuItem.Click += new System.EventHandler(this.cloneTaskToolStripMenuItem_Click);
             // 
@@ -503,7 +501,7 @@
             // 
             this.aboutMiniBugToolStripMenuItem.Image = global::MiniBug.Properties.Resources.About_32x32;
             this.aboutMiniBugToolStripMenuItem.Name = "aboutMiniBugToolStripMenuItem";
-            this.aboutMiniBugToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutMiniBugToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aboutMiniBugToolStripMenuItem.Text = "&关于 MiniBug";
             this.aboutMiniBugToolStripMenuItem.Click += new System.EventHandler(this.aboutMiniBugToolStripMenuItem_Click);
             // 
@@ -516,9 +514,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(801, 450);
+            this.Controls.Add(this.TabControl);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.TabControl);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";

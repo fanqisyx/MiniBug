@@ -72,7 +72,7 @@
             // lblVersion
             // 
             this.lblVersion.AutoSize = true;
-            this.lblVersion.Location = new System.Drawing.Point(107, 52);
+            this.lblVersion.Location = new System.Drawing.Point(107, 46);
             this.lblVersion.Name = "lblVersion";
             this.lblVersion.Size = new System.Drawing.Size(45, 13);
             this.lblVersion.TabIndex = 3;
@@ -81,7 +81,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(107, 81);
+            this.label2.Location = new System.Drawing.Point(107, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(192, 13);
             this.label2.TabIndex = 4;
@@ -90,7 +90,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(107, 110);
+            this.linkLabel1.Location = new System.Drawing.Point(108, 102);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(264, 13);
             this.linkLabel1.TabIndex = 5;
@@ -101,7 +101,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(107, 130);
+            this.linkLabel2.Location = new System.Drawing.Point(107, 127);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(197, 13);
             this.linkLabel2.TabIndex = 6;
