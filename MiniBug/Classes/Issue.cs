@@ -16,12 +16,12 @@ namespace MiniBug
     public enum IssueStatus
     {
         None = 0,
-        Unconfirmed,
-        Confirmed,
+        未确认,
+        已确认,
         [DescriptionAttribute("In progress")]
-        InProgress,
-        Resolved,
-        Closed
+        进行中,
+        已解决,
+        已关闭
     };
 
     /// <summary>

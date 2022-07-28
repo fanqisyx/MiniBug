@@ -989,7 +989,7 @@ namespace MiniBug
             // Text color of closed issues
             if (Program.SoftwareProject.Issues.ContainsKey(key))
             {
-                if (Program.SoftwareProject.Issues[key].Status == IssueStatus.Closed)
+                if (Program.SoftwareProject.Issues[key].Status == IssueStatus.已关闭)
                 {
                     e.CellStyle.ForeColor = ApplicationSettings.GridClosedItem;
                     e.CellStyle.SelectionForeColor = ApplicationSettings.GridClosedItem;

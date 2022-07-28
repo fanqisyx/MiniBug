@@ -53,26 +53,26 @@
             this.lblFormTitle.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.lblFormTitle.Size = new System.Drawing.Size(611, 63);
             this.lblFormTitle.TabIndex = 0;
-            this.lblFormTitle.Text = "Project";
+            this.lblFormTitle.Text = "Project 项目";
             this.lblFormTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btOk
             // 
-            this.btOk.Location = new System.Drawing.Point(443, 222);
+            this.btOk.Location = new System.Drawing.Point(434, 222);
             this.btOk.Name = "btOk";
-            this.btOk.Size = new System.Drawing.Size(75, 23);
+            this.btOk.Size = new System.Drawing.Size(81, 23);
             this.btOk.TabIndex = 9;
-            this.btOk.Text = "OK";
+            this.btOk.Text = "OK 确定";
             this.btOk.UseVisualStyleBackColor = true;
             this.btOk.Click += new System.EventHandler(this.btOk_Click);
             // 
             // btCancel
             // 
-            this.btCancel.Location = new System.Drawing.Point(524, 222);
+            this.btCancel.Location = new System.Drawing.Point(518, 222);
             this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(75, 23);
+            this.btCancel.Size = new System.Drawing.Size(81, 23);
             this.btCancel.TabIndex = 10;
-            this.btCancel.Text = "Cancel";
+            this.btCancel.Text = "Cancel 取消";
             this.btCancel.UseVisualStyleBackColor = true;
             this.btCancel.Click += new System.EventHandler(this.btCancel_Click);
             // 
@@ -81,9 +81,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(13, 92);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
+            this.label1.Size = new System.Drawing.Size(76, 26);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Project &name:";
+            this.label1.Text = "Project &name:\r\n项目名称";
             // 
             // txtName
             // 
@@ -98,9 +98,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 156);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 13);
+            this.label2.Size = new System.Drawing.Size(54, 26);
             this.label2.TabIndex = 5;
-            this.label2.Text = "&Location:";
+            this.label2.Text = "&Location:\r\n路径";
             // 
             // txtLocation
             // 
@@ -128,9 +128,9 @@
             this.label3.Location = new System.Drawing.Point(112, 180);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(2, 3, 4, 3);
-            this.label3.Size = new System.Drawing.Size(209, 19);
+            this.label3.Size = new System.Drawing.Size(316, 19);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Folder where the project will be saved";
+            this.label3.Text = "Folder where the project will be saved 保存项目的文件夹";
             // 
             // pictureBox1
             // 
@@ -147,9 +147,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(13, 124);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 13);
+            this.label4.Size = new System.Drawing.Size(56, 26);
             this.label4.TabIndex = 3;
-            this.label4.Text = "&Filename:";
+            this.label4.Text = "&Filename:\r\n文件名";
             // 
             // txtFilename
             // 

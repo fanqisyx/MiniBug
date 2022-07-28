@@ -80,11 +80,11 @@ namespace MiniBug
         /// </summary>
         public static Dictionary<IssueStatus, Brush> IssueStatusColors = new Dictionary<IssueStatus, Brush>() {
             { IssueStatus.None, Brushes.Transparent },
-            { IssueStatus.Unconfirmed, Brushes.Transparent },
-            { IssueStatus.Confirmed, Brushes.Goldenrod },
-            { IssueStatus.InProgress, Brushes.Blue },
-            { IssueStatus.Resolved, Brushes.ForestGreen },
-            { IssueStatus.Closed, Brushes.Gray }
+            { IssueStatus.未确认, Brushes.Transparent },
+            { IssueStatus.已确认, Brushes.Goldenrod },
+            { IssueStatus.进行中, Brushes.Blue },
+            { IssueStatus.已解决, Brushes.ForestGreen },
+            { IssueStatus.已关闭, Brushes.Gray }
         };
 
         /// <summary>
@@ -108,28 +108,28 @@ namespace MiniBug
         public static Dictionary<IssueFieldsUI, GridColumn> GridIssuesColumns = new Dictionary<IssueFieldsUI, GridColumn>()
         {
             { IssueFieldsUI.ID,
-                new GridColumn { Name = "id", HeaderText = "ID", Visible = true, DisplayIndex = 1, Description = "Unique numerical code assigned to the issue" } },
+                new GridColumn { Name = "id", HeaderText = "ID", Visible = true, DisplayIndex = 1, Description = "分配给问题的唯一数字编号  Unique numerical code assigned to the issue " } },
 
             { IssueFieldsUI.Priority,
-                new GridColumn { Name = "priority", HeaderText = "", Visible = true, DisplayIndex = 0, Description = "Priority of an issue" } },
+                new GridColumn { Name = "priority", HeaderText = "", Visible = true, DisplayIndex = 0, Description = "问题的优先级  Priority of an issue " } },
 
             { IssueFieldsUI.Status,
-                new GridColumn { Name = "status", HeaderText = "Status", Visible = true, DisplayIndex = 2, Description = "Current status of the issue" } },
+                new GridColumn { Name = "status", HeaderText = "Status", Visible = true, DisplayIndex = 2, Description = "问题的当前状态  Current status of the issue " } },
 
             { IssueFieldsUI.Version,
-                new GridColumn { Name = "version", HeaderText = "Version", Visible = true, DisplayIndex = 3, Description = "Version where the issue was detected" } },
+                new GridColumn { Name = "version", HeaderText = "Version", Visible = true, DisplayIndex = 3, Description = "发现问题时的版本  Version where the issue was detected" } },
 
             { IssueFieldsUI.TargetVersion,
-                new GridColumn { Name = "target", HeaderText = "Target", Visible = false, DisplayIndex = 4, Description = "Version where the issue must be resolved" } },
+                new GridColumn { Name = "target", HeaderText = "Target", Visible = false, DisplayIndex = 4, Description = "准备解决此问题的版本  Version where the issue must be resolved " } },
 
             { IssueFieldsUI.Summary,
-                new GridColumn { Name = "summary", HeaderText = "Summary", Visible = true, DisplayIndex = 5, Description = "Brief summary of the issue" } },
+                new GridColumn { Name = "summary", HeaderText = "Summary", Visible = true, DisplayIndex = 5, Description = "问题的简要总结  Brief summary of the issue" } },
 
             { IssueFieldsUI.DateCreated,
-                new GridColumn { Name = "created", HeaderText = "Created", Visible = true, DisplayIndex = 6, Description = "Date/time when the issue was created" } },
+                new GridColumn { Name = "created", HeaderText = "Created", Visible = true, DisplayIndex = 6, Description = "创建问题的日期和时间  Date/time when the issue was created " } },
 
             { IssueFieldsUI.DateModified,
-                new GridColumn { Name = "modified", HeaderText = "Modified", Visible = false, DisplayIndex = 7, Description = "Date/time when the issue was last modified" } }
+                new GridColumn { Name = "modified", HeaderText = "Modified", Visible = false, DisplayIndex = 7, Description = "上次修改问题的日期和时间  Date/time when the issue was last modified " } }
         };
 
         /// <summary>
