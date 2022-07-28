@@ -100,7 +100,7 @@ namespace MiniBug
         /// <summary>
         /// Font to use in the Description field of the Issues and Tasks forms.
         /// </summary>
-        public static readonly Font FormDescriptionFieldFont = new Font("Consolas", 9);
+        public static readonly Font FormDescriptionFieldFont = new Font("微软雅黑", 9);
 
         /// <summary>
         /// The columns of the issues DataGridView.

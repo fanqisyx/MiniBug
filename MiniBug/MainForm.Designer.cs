@@ -89,7 +89,7 @@
             this.GridIssues.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.GridIssues.Location = new System.Drawing.Point(6, 6);
             this.GridIssues.Name = "GridIssues";
-            this.GridIssues.Size = new System.Drawing.Size(778, 335);
+            this.GridIssues.Size = new System.Drawing.Size(778, 328);
             this.GridIssues.TabIndex = 0;
             this.GridIssues.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GridIssues_CellDoubleClick);
             this.GridIssues.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.GridIssues_CellFormatting);
@@ -104,6 +104,7 @@
             this.TabControl.Controls.Add(this.tabPage1);
             this.TabControl.Controls.Add(this.tabPage2);
             this.TabControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TabControl.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.TabControl.Location = new System.Drawing.Point(0, 77);
             this.TabControl.Margin = new System.Windows.Forms.Padding(0);
             this.TabControl.Name = "TabControl";
@@ -115,10 +116,11 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.GridIssues);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(793, 347);
+            this.tabPage1.Size = new System.Drawing.Size(793, 340);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Issues 问题";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -126,10 +128,10 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.GridTasks);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(791, 339);
+            this.tabPage2.Size = new System.Drawing.Size(793, 340);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Tasks 任务";
             this.tabPage2.UseVisualStyleBackColor = true;

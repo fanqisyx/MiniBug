@@ -130,7 +130,7 @@ namespace MiniBug
                 lblID.Text = CurrentIssue.ID.ToString();
             }
 
-            txtDescription.Font = ApplicationSettings.FormDescriptionFieldFont;
+            //txtDescription.Font = ApplicationSettings.FormDescriptionFieldFont;
 
             // Resume the layout logic
             this.ResumeLayout();
